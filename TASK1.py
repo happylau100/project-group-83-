@@ -1,5 +1,5 @@
-from utils.Library import Library
-from utils.Book import Book
+from library import Library
+from book import Book
 lib = Library()
 lib.add(Book("abc"))
 lib.add(Book("123"))
